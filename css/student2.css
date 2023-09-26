@@ -1,0 +1,13 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 250px); 
+    justify-content: center; 
+    width: 90%;
+    margin: auto; 
+    border: 1px solid black;
+    grid-gap: 10px;
+}
+
+.span-all-columns {
+    grid-column: span 3;
+}
